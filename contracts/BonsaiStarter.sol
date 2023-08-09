@@ -57,7 +57,7 @@ contract BonsaiStarter is BonsaiCallbackReceiver {
         fibonacciCache[n] = result;
     }
 
-    /// @notice Sends a request to Bonsai to have have the nth Fibonacci number calculated.
+    /// @notice Sends a request to Bonsai to have the nth Fibonacci number calculated.
     /// @dev This function sends the request to Bonsai through the on-chain relay.
     ///      The request will trigger Bonsai to run the specified RISC Zero guest program with
     ///      the given input and asynchronously return the verified results via the callback below.
